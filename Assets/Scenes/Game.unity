@@ -119,6 +119,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &549619474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6790706529203702165, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
+  m_PrefabInstance: {fileID: 651526143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!19719996 &549619480
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549619474}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &569054974
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +322,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7334922279155374731, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4514605436594923112, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3753780636291539956, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
       propertyPath: m_Name
       value: DungeonGame
@@ -330,6 +381,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8781804594346204047, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1535162218}
+    - targetCorrespondingSourceObject: {fileID: -6790706529203702165, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 549619480}
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 13470552f9bfe7e4eafab149acc38d83, type: 3}
 --- !u!1001 &879871965
 PrefabInstance:
@@ -342,6 +396,10 @@ PrefabInstance:
     - target: {fileID: 6215079797964666765, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215079797964666765, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7495099632906085229, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_LocalScale.x
@@ -490,7 +548,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.002090335, y: 0.000000029802322}
+  m_Offset: {x: -0.002090335, y: -0.042797565}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -500,7 +558,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8447292, y: 0.99105316}
+  m_Size: {x: 0.8447292, y: 0.905458}
   m_EdgeRadius: 0
 --- !u!50 &1841352262
 Rigidbody2D:

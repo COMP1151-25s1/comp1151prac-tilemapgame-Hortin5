@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "DungeonGame.tmx",
+    "activeFile": "TilemapDungeon.tsx",
     "expandedProjectPaths": [
         "."
     ],
@@ -14,16 +14,16 @@
             "scaleInEditor": 5.5
         },
         "DungeonGame.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 289.75,
-                "y": 132
+                "x": 433.66666666666663,
+                "y": 154.83333333333334
             }
         },
         "TilemapDungeon.tsx": {
             "scaleInDock": 3,
-            "scaleInEditor": 5.5
+            "scaleInEditor": 4
         }
     },
     "last.imagePath": "C:/Users/49202715/Documents/comp1151prac-tilemapgame-Hortin5/Assets/Tiled",
@@ -37,8 +37,8 @@
     ],
     "project": "gameTilemap.tiled-project",
     "recentFiles": [
-        "TilemapDungeon.tsx",
         "DungeonGame.tmx",
+        "TilemapDungeon.tsx",
         "DungeonCrawl.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
